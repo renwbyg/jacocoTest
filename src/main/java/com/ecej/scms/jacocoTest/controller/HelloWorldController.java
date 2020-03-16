@@ -11,6 +11,12 @@ public class HelloWorldController {
 	@RequestMapping("/myMethod1")
 	@ResponseBody
 	public String myMethod1() {
-		return "myMethod1";
+		return "myMethod1 is invoked!!";
+	}
+
+	@RequestMapping("/myMethod2")
+	@ResponseBody
+	public String myMethod2() {
+		return "myMethod2 is invoked!!";
 	}
 }
