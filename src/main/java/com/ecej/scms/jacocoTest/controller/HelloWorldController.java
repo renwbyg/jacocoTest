@@ -19,4 +19,10 @@ public class HelloWorldController {
 	public String myMethod2() {
 		return "myMethod2 is invoked!!";
 	}
+
+	@RequestMapping("/myMethod3")
+	@ResponseBody
+	public String myMethod3() {
+		return "myMethod3 is invoked!!";
+	}
 }
