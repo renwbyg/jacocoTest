@@ -18,6 +18,7 @@ public class HelloWorldController {
 	@RequestMapping("/myMethod2")
 	@ResponseBody
 	public String myMethod2() {
+		System.out.println("diff version 2");
 		return "myMethod2 is invoked!!";
 	}
 
