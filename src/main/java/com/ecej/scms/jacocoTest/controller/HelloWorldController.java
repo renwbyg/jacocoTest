@@ -23,6 +23,7 @@ public class HelloWorldController {
 	@RequestMapping("/myMethod3")
 	@ResponseBody
 	public String myMethod3() {
+		System.out.println("myMethod3 is invoked!!");
 		return "myMethod3 is invoked!!";
 	}
 }
