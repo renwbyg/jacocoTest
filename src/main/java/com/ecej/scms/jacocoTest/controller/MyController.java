@@ -11,7 +11,7 @@ public class MyController {
 	@RequestMapping("/myMethod1")
 	@ResponseBody
 	public String myMethod1() {
-		System.out.println("diff version 1");
+		System.out.println("myMethod1");
 		return "myMethod1 is invoked!!";
 	}
 
