@@ -14,4 +14,6 @@ public class MyController {
 		System.out.println("diff version 1");
 		return "myMethod1 is invoked!!";
 	}
+
+
 }
