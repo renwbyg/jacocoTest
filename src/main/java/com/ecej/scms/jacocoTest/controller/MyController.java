@@ -15,12 +15,6 @@ public class MyController {
 		return "myMethod1 is invoked!!";
 	}
 
-	@RequestMapping("/myMethod2")
-	@ResponseBody
-	public String myMethod2() {
-		System.out.println("myMethod2");
-		return "myMethod2 is invoked!!";
-	}
 
 
 }
