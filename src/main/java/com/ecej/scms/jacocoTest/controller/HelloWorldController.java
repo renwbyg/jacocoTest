@@ -19,6 +19,7 @@ public class HelloWorldController {
 	@ResponseBody
 	public String myMethod2() {
 		System.out.println("diff version 2");
+		System.out.println("welcome");
 		return "myMethod2 is invoked!!";
 	}
 
