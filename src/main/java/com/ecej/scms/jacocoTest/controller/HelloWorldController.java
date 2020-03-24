@@ -22,11 +22,4 @@ public class HelloWorldController {
 		return "myMethod2 is invoked!!";
 	}
 
-	@RequestMapping("/myMethod3")
-	@ResponseBody
-	public String myMethod3() {
-		System.out.println("myMethod3 is invoked!!");
-		System.out.println("myTest and jenkins");
-		return "myMethod3 is invoked!!";
-	}
 }

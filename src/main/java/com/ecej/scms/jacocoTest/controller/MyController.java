@@ -15,5 +15,11 @@ public class MyController {
 		return "myMethod1 is invoked!!";
 	}
 
+	@RequestMapping("/myMethod2")
+	@ResponseBody
+	public String myMethod2() {
+		System.out.println("jenkins");
+		return "myMethod2 is invoked!!";
+	}
 
 }
