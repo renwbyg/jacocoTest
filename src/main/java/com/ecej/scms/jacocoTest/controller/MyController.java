@@ -23,4 +23,9 @@ public class MyController {
 		return "myMethod2 is invoked!!";
 	}
 
+	@RequestMapping("/myMethod3")
+	@ResponseBody
+	public String myMethod3() {
+		return "myMethod3 is invoked!!";
+	}
 }
