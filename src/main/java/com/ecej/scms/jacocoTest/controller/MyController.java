@@ -29,4 +29,11 @@ public class MyController {
 		System.out.println("你好，hello");
 		return "myMethod3 is invoked!!";
 	}
+
+	@RequestMapping("/myMethod4")
+	@ResponseBody
+	public String myMethod4() {
+		System.out.println("helloWorld");
+		return "myMethod4 is invoked!!";
+	}
 }
